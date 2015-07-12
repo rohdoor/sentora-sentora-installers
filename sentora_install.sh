@@ -511,7 +511,7 @@ ln -s $PANEL_PATH/panel/bin/setzadmin /usr/bin/setzadmin
 
 #--- Install preconfig
 while true; do
-    wget -nv -O sentora_preconfig.zip https://github.com/sentora/sentora-installers/archive/$SENTORA_PRECONF_VERSION.zip
+    wget -nv -O sentora_preconfig.zip https://github.com/rohdoor/sentora-sentora-installers/archive/$SENTORA_PRECONF_VERSION.zip
     if [[ -f sentora_preconfig.zip ]]; then
         break;
     else
